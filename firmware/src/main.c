@@ -21,7 +21,7 @@
 #define USART0_BAUD         115200ul
 #define USART0_UBBR_VALUE   ((F_CPU/(USART0_BAUD<<4))-1)
 
-
+/* Init GPIOs */
 void init_IO()
 {
     DDR_LED_O |= (1<<BIT_LED_O);
