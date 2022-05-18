@@ -53,3 +53,5 @@ dkms.conf
 
 firmware/Release
 firmware/.settings
+firmware/.settings/de.innot.avreclipse.core.prefs
+firmware/.cproject
